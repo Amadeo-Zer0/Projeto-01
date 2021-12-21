@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Indie+Flower&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    width: 100%;
+    height: 240px;
+
+    position: relative;
+
+    background-color: #B2D5E2;
+
+}
+.CB_ini{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.titulo{
+
+    margin-top: 60px;
+    padding-top: 40px;
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 1;
+
+}
+
+.uniao{
+
+    margin-top: 10px;
+    width: 70%;
+    height: 85%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+.nave_do_CB{
+
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    
+    margin-top: 34px;
+    
+}
+
+.bloco_d_op{
+    
+    width: 100%;
+    height: 60px;
+    padding-left: 0;
+    
+    display: flex;
+    
+    z-index: 1;
+    
+    list-style-type: none;
+}
+
+.link_da_opc{
+
+    width: 30%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid black 1px;
+    background-color: #E7CF6A;
+
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+
+    z-index: 1;
+    
+}
+
+.link_da_opc:hover{
+
+    background-color: #e2c13d;
+    border-color: white;
+    color: black;
+    font-style: border white;
+
+    transition: 0.7;
+
+}
+
+.corpo_princ{
+
+    width: 100%;
+    height: 725px;
+    background-color:#8CAF6D;
+
+}
+
+img{
+
+    width: 100%;
+    height: 300px;
+
+}
+
+.nav_main{
+
+    width: 100%;
+    height: 352px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.imagem_link{
+
+    margin: 5%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.fim_do_site{
+
+    width: 100%;
+    height: 160px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #E7CF6A;
+
+}
+
